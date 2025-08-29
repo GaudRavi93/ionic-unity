@@ -1,0 +1,239 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player" >
+5
+6    <uses-sdk android:minSdkVersion="24" />
+7
+8    <uses-permission android:name="android.permission.INTERNET" />
+8-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:3:3-65
+8-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:3:20-62
+9    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+9-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:4:3-77
+9-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:4:20-74
+10    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+10-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:5:3-79
+10-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:5:20-76
+11
+12    <uses-feature android:glEsVersion="0x00030000" />
+12-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:6:3-52
+12-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:6:17-49
+13    <uses-feature
+13-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:7:3-89
+14        android:name="android.hardware.location.gps"
+14-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:7:17-61
+15        android:required="false" />
+15-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:7:62-86
+16    <uses-feature
+16-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:8:3-85
+17        android:name="android.hardware.location"
+17-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:8:17-57
+18        android:required="false" />
+18-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:8:58-82
+19    <uses-feature
+19-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:9:3-88
+20        android:name="android.hardware.touchscreen"
+20-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:9:17-60
+21        android:required="false" />
+21-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:9:61-85
+22    <uses-feature
+22-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:10:3-99
+23        android:name="android.hardware.touchscreen.multitouch"
+23-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:10:17-71
+24        android:required="false" />
+24-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:10:72-96
+25    <uses-feature
+25-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:11:3-108
+26        android:name="android.hardware.touchscreen.multitouch.distinct"
+26-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:11:17-80
+27        android:required="false" />
+27-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:11:81-105
+28
+29    <uses-permission android:name="android.permission.CAMERA" />
+29-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:42:3-63
+29-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:42:20-60
+30
+31    <uses-feature
+31-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:43:3-85
+32        android:name="android.hardware.camera.ar"
+32-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:43:17-58
+33        android:required="true" />
+33-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:43:59-82
+34    <uses-feature
+34-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:44:3-83
+35        android:name="com.google.ar.core.depth"
+35-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:44:17-56
+36        android:required="true" />
+36-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:44:57-80
+37
+38    <application
+38-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:12:3-41:17
+39        android:enableOnBackInvokedCallback="false"
+39-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:12:16-59
+40        android:extractNativeLibs="true" >
+40-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:12:60-92
+41        <meta-data
+41-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:13:5-69
+42            android:name="unity.splash-mode"
+42-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:13:16-48
+43            android:value="0" />
+43-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:13:49-66
+44        <meta-data
+44-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:14:5-74
+45            android:name="unity.splash-enable"
+45-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:14:16-50
+46            android:value="True" />
+46-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:14:51-71
+47        <meta-data
+47-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:15:5-78
+48            android:name="unity.launch-fullscreen"
+48-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:15:16-54
+49            android:value="True" />
+49-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:15:55-75
+50        <meta-data
+50-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:16:5-84
+51            android:name="unity.render-outside-safearea"
+51-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:16:16-60
+52            android:value="True" />
+52-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:16:61-81
+53        <meta-data
+53-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:17:5-81
+54            android:name="notch.config"
+54-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:17:16-43
+55            android:value="portrait|landscape" />
+55-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:17:44-78
+56        <meta-data
+56-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:18:5-84
+57            android:name="unity.auto-report-fully-drawn"
+57-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:18:16-60
+58            android:value="true" />
+58-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:18:61-81
+59        <meta-data
+59-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:19:5-80
+60            android:name="unity.auto-set-game-state"
+60-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:19:16-56
+61            android:value="true" />
+61-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:19:57-77
+62        <meta-data
+62-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:20:5-78
+63            android:name="unity.strip-engine-code"
+63-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:20:16-54
+64            android:value="true" />
+64-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:20:55-75
+65
+66        <activity
+66-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:21:5-27:16
+67            android:name="com.unity3d.player.UnityPlayerActivity"
+67-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:21:313-366
+68            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+68-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:21:15-196
+69            android:enabled="false"
+69-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:21:197-220
+70            android:exported="true"
+70-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:21:221-244
+71            android:hardwareAccelerated="false"
+71-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:21:245-280
+72            android:launchMode="singleTask"
+72-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:21:281-312
+73            android:resizeableActivity="true"
+73-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:21:367-400
+74            android:screenOrientation="fullUser"
+74-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:21:401-437
+75            android:theme="@style/UnityThemeSelector" >
+75-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:21:438-479
+76            <intent-filter>
+76-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:22:7-25:23
+77                <category android:name="android.intent.category.LAUNCHER" />
+77-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:23:9-69
+77-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:23:19-66
+78
+79                <action android:name="android.intent.action.MAIN" />
+79-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:24:9-61
+79-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:24:17-58
+80            </intent-filter>
+81
+82            <meta-data
+82-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:26:7-82
+83                android:name="unityplayer.UnityActivity"
+83-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:26:18-58
+84                android:value="true" />
+84-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:26:59-79
+85        </activity>
+86        <activity
+86-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:28:5-38:16
+87            android:name="com.unity3d.player.UnityPlayerGameActivity"
+87-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:28:312-369
+88            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+88-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:28:15-196
+89            android:enabled="true"
+89-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:28:197-219
+90            android:exported="true"
+90-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:28:220-243
+91            android:hardwareAccelerated="false"
+91-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:28:244-279
+92            android:launchMode="singleTask"
+92-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:28:280-311
+93            android:resizeableActivity="true"
+93-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:28:370-403
+94            android:screenOrientation="fullUser"
+94-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:28:404-440
+95            android:theme="@style/BaseUnityGameActivityTheme" >
+95-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:28:441-490
+96            <intent-filter>
+96-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:22:7-25:23
+97                <category android:name="android.intent.category.LAUNCHER" />
+97-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:23:9-69
+97-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:23:19-66
+98
+99                <action android:name="android.intent.action.MAIN" />
+99-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:24:9-61
+99-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:24:17-58
+100            </intent-filter>
+101
+102            <meta-data
+102-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:26:7-82
+103                android:name="unityplayer.UnityActivity"
+103-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:26:18-58
+104                android:value="true" />
+104-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:26:59-79
+105            <meta-data
+105-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:34:7-77
+106                android:name="android.app.lib_name"
+106-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:34:18-53
+107                android:value="game" />
+107-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:34:54-74
+108            <meta-data
+108-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:35:7-130
+109                android:name="WindowManagerPreference:FreeformWindowSize"
+109-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:35:18-75
+110                android:value="@string/FreeformWindowSize_maximize" />
+110-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:35:76-127
+111            <meta-data
+111-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:36:7-145
+112                android:name="WindowManagerPreference:FreeformWindowOrientation"
+112-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:36:18-82
+113                android:value="@string/FreeformWindowOrientation_landscape" />
+113-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:36:83-142
+114            <meta-data
+114-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:37:7-70
+115                android:name="notch_support"
+115-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:37:18-46
+116                android:value="true" />
+116-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:37:47-67
+117        </activity>
+118
+119        <meta-data
+119-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:39:5-88
+120            android:name="unityplayer.SkipPermissionsDialog"
+120-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:39:16-64
+121            android:value="true" />
+121-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:39:65-85
+122        <meta-data
+122-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:40:5-77
+123            android:name="com.google.ar.core"
+123-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:40:16-49
+124            android:value="required" />
+124-->/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/src/main/AndroidManifest.xml:40:50-74
+125    </application>
+126
+127</manifest>

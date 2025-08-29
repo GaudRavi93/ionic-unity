@@ -1,0 +1,11 @@
+<dependencies>
+  <compile
+      roots=":@@:launcher::debug,:@@:unityLibrary::debug">
+    <dependency
+        name=":@@:launcher::debug"
+        simpleName="artifacts::launcher"/>
+    <dependency
+        name=":@@:unityLibrary::debug"
+        simpleName="ArTreasureHuntLibrary:unityLibrary"/>
+  </compile>
+</dependencies>

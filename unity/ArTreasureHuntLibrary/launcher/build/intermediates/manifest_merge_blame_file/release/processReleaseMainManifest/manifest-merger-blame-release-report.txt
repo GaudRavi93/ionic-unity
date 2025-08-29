@@ -1,0 +1,331 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.DefaultCompany.ARSuperMarket"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="24"
+10        android:targetSdkVersion="35" />
+11
+12    <supports-screens
+12-->/Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/launcher/src/main/AndroidManifest.xml:4:3-163
+13        android:anyDensity="true"
+13-->/Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/launcher/src/main/AndroidManifest.xml:4:135-160
+14        android:largeScreens="true"
+14-->/Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/launcher/src/main/AndroidManifest.xml:4:78-105
+15        android:normalScreens="true"
+15-->/Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/launcher/src/main/AndroidManifest.xml:4:49-77
+16        android:smallScreens="true"
+16-->/Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/launcher/src/main/AndroidManifest.xml:4:21-48
+17        android:xlargeScreens="true" />
+17-->/Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/launcher/src/main/AndroidManifest.xml:4:106-134
+18
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:8:5-67
+19-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:8:22-64
+20    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+20-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:9:5-79
+20-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:9:22-76
+21    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+21-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:10:5-81
+21-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:10:22-78
+22
+23    <uses-feature android:glEsVersion="0x00030000" />
+23-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:12:5-54
+23-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:12:19-51
+24    <uses-feature
+24-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:13:5-15:36
+25        android:name="android.hardware.location.gps"
+25-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:14:9-53
+26        android:required="false" />
+26-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:15:9-33
+27    <uses-feature
+27-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:16:5-18:36
+28        android:name="android.hardware.location"
+28-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:17:9-49
+29        android:required="false" />
+29-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:18:9-33
+30    <uses-feature
+30-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:19:5-21:36
+31        android:name="android.hardware.touchscreen"
+31-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:20:9-52
+32        android:required="false" />
+32-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:21:9-33
+33    <uses-feature
+33-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:22:5-24:36
+34        android:name="android.hardware.touchscreen.multitouch"
+34-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:23:9-63
+35        android:required="false" />
+35-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:24:9-33
+36    <uses-feature
+36-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:25:5-27:36
+37        android:name="android.hardware.touchscreen.multitouch.distinct"
+37-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:26:9-72
+38        android:required="false" />
+38-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:27:9-33
+39
+40    <uses-permission android:name="android.permission.CAMERA" />
+40-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:29:5-65
+40-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:29:22-62
+41
+42    <uses-feature
+42-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:31:5-33:35
+43        android:name="android.hardware.camera.ar"
+43-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:32:9-50
+44        android:required="true" />
+44-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:33:9-32
+45    <uses-feature
+45-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:34:5-36:35
+46        android:name="com.google.ar.core.depth"
+46-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:35:9-48
+47        android:required="true" />
+47-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:36:9-32
+48
+49    <queries>
+49-->[:arcore_client:] /Users/diveroidteam/.gradle/caches/transforms-3/8613db0cad9624e75f3743c7cfc05935/transformed/jetified-arcore_client/AndroidManifest.xml:20:5-27:15
+50        <package android:name="com.google.ar.core" />
+50-->[:arcore_client:] /Users/diveroidteam/.gradle/caches/transforms-3/8613db0cad9624e75f3743c7cfc05935/transformed/jetified-arcore_client/AndroidManifest.xml:21:9-54
+50-->[:arcore_client:] /Users/diveroidteam/.gradle/caches/transforms-3/8613db0cad9624e75f3743c7cfc05935/transformed/jetified-arcore_client/AndroidManifest.xml:21:18-51
+51        <package android:name="com.android.vending" />
+51-->[:arcore_client:] /Users/diveroidteam/.gradle/caches/transforms-3/8613db0cad9624e75f3743c7cfc05935/transformed/jetified-arcore_client/AndroidManifest.xml:22:9-55
+51-->[:arcore_client:] /Users/diveroidteam/.gradle/caches/transforms-3/8613db0cad9624e75f3743c7cfc05935/transformed/jetified-arcore_client/AndroidManifest.xml:22:18-52
+52
+53        <intent>
+53-->[:arcore_client:] /Users/diveroidteam/.gradle/caches/transforms-3/8613db0cad9624e75f3743c7cfc05935/transformed/jetified-arcore_client/AndroidManifest.xml:24:9-26:18
+54            <action android:name="com.google.android.play.core.install.BIND_INSTALL_SERVICE" />
+54-->[:arcore_client:] /Users/diveroidteam/.gradle/caches/transforms-3/8613db0cad9624e75f3743c7cfc05935/transformed/jetified-arcore_client/AndroidManifest.xml:25:13-96
+54-->[:arcore_client:] /Users/diveroidteam/.gradle/caches/transforms-3/8613db0cad9624e75f3743c7cfc05935/transformed/jetified-arcore_client/AndroidManifest.xml:25:21-93
+55        </intent>
+56    </queries>
+57
+58    <permission
+58-->[androidx.core:core:1.9.0] /Users/diveroidteam/.gradle/caches/transforms-3/c919e84cf21a5073ea88f45ff1a29b85/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+59        android:name="com.DefaultCompany.ARSuperMarket.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+59-->[androidx.core:core:1.9.0] /Users/diveroidteam/.gradle/caches/transforms-3/c919e84cf21a5073ea88f45ff1a29b85/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+60        android:protectionLevel="signature" />
+60-->[androidx.core:core:1.9.0] /Users/diveroidteam/.gradle/caches/transforms-3/c919e84cf21a5073ea88f45ff1a29b85/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+61
+62    <uses-permission android:name="com.DefaultCompany.ARSuperMarket.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+62-->[androidx.core:core:1.9.0] /Users/diveroidteam/.gradle/caches/transforms-3/c919e84cf21a5073ea88f45ff1a29b85/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+62-->[androidx.core:core:1.9.0] /Users/diveroidteam/.gradle/caches/transforms-3/c919e84cf21a5073ea88f45ff1a29b85/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+63
+64    <application
+64-->/Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/launcher/src/main/AndroidManifest.xml:3:3-83
+65        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+65-->[androidx.core:core:1.9.0] /Users/diveroidteam/.gradle/caches/transforms-3/c919e84cf21a5073ea88f45ff1a29b85/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+66        android:enableOnBackInvokedCallback="false"
+66-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:39:9-52
+67        android:extractNativeLibs="true"
+68        android:icon="@mipmap/app_icon"
+68-->/Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/launcher/src/main/AndroidManifest.xml:3:16-47
+69        android:label="@string/app_name" >
+69-->/Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/launcher/src/main/AndroidManifest.xml:3:48-80
+70        <meta-data
+70-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:41:9-43:33
+71            android:name="unity.splash-mode"
+71-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:42:13-45
+72            android:value="0" />
+72-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:43:13-30
+73        <meta-data
+73-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:44:9-46:36
+74            android:name="unity.splash-enable"
+74-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:45:13-47
+75            android:value="True" />
+75-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:46:13-33
+76        <meta-data
+76-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:47:9-49:36
+77            android:name="unity.launch-fullscreen"
+77-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:48:13-51
+78            android:value="True" />
+78-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:49:13-33
+79        <meta-data
+79-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:50:9-52:36
+80            android:name="unity.render-outside-safearea"
+80-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:51:13-57
+81            android:value="True" />
+81-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:52:13-33
+82        <meta-data
+82-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:53:9-55:50
+83            android:name="notch.config"
+83-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:54:13-40
+84            android:value="portrait|landscape" />
+84-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:55:13-47
+85        <meta-data
+85-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:56:9-58:36
+86            android:name="unity.auto-report-fully-drawn"
+86-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:57:13-57
+87            android:value="true" />
+87-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:58:13-33
+88        <meta-data
+88-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:59:9-61:36
+89            android:name="unity.auto-set-game-state"
+89-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:60:13-53
+90            android:value="true" />
+90-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:61:13-33
+91        <meta-data
+91-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:62:9-64:36
+92            android:name="unity.strip-engine-code"
+92-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:63:13-51
+93            android:value="true" />
+93-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:64:13-33
+94
+95        <activity
+95-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:66:9-85:20
+96            android:name="com.unity3d.player.UnityPlayerActivity"
+96-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:67:13-66
+97            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+97-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:68:13-194
+98            android:enabled="false"
+98-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:69:13-36
+99            android:exported="true"
+99-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:70:13-36
+100            android:hardwareAccelerated="false"
+100-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:71:13-48
+101            android:launchMode="singleTask"
+101-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:72:13-44
+102            android:resizeableActivity="true"
+102-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:73:13-46
+103            android:screenOrientation="fullUser"
+103-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:74:13-49
+104            android:theme="@style/UnityThemeSelector" >
+104-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:75:13-54
+105            <intent-filter>
+105-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:76:13-80:29
+106                <category android:name="android.intent.category.LAUNCHER" />
+106-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:77:17-77
+106-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:77:27-74
+107
+108                <action android:name="android.intent.action.MAIN" />
+108-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:79:17-69
+108-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:79:25-66
+109            </intent-filter>
+110
+111            <meta-data
+111-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:82:13-84:40
+112                android:name="unityplayer.UnityActivity"
+112-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:83:17-57
+113                android:value="true" />
+113-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:84:17-37
+114        </activity>
+115        <activity
+115-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:86:9-117:20
+116            android:name="com.unity3d.player.UnityPlayerGameActivity"
+116-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:87:13-70
+117            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+117-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:88:13-194
+118            android:enabled="true"
+118-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:89:13-35
+119            android:exported="true"
+119-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:90:13-36
+120            android:hardwareAccelerated="false"
+120-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:91:13-48
+121            android:launchMode="singleTask"
+121-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:92:13-44
+122            android:resizeableActivity="true"
+122-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:93:13-46
+123            android:screenOrientation="fullUser"
+123-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:94:13-49
+124            android:theme="@style/BaseUnityGameActivityTheme" >
+124-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:95:13-62
+125            <intent-filter>
+125-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:76:13-80:29
+126                <category android:name="android.intent.category.LAUNCHER" />
+126-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:77:17-77
+126-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:77:27-74
+127
+128                <action android:name="android.intent.action.MAIN" />
+128-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:79:17-69
+128-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:79:25-66
+129            </intent-filter>
+130
+131            <meta-data
+131-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:82:13-84:40
+132                android:name="unityplayer.UnityActivity"
+132-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:83:17-57
+133                android:value="true" />
+133-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:84:17-37
+134            <meta-data
+134-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:105:13-107:40
+135                android:name="android.app.lib_name"
+135-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:106:17-52
+136                android:value="game" />
+136-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:107:17-37
+137            <meta-data
+137-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:108:13-110:71
+138                android:name="WindowManagerPreference:FreeformWindowSize"
+138-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:109:17-74
+139                android:value="@string/FreeformWindowSize_maximize" />
+139-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:110:17-68
+140            <meta-data
+140-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:111:13-113:79
+141                android:name="WindowManagerPreference:FreeformWindowOrientation"
+141-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:112:17-81
+142                android:value="@string/FreeformWindowOrientation_landscape" />
+142-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:113:17-76
+143            <meta-data
+143-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:114:13-116:40
+144                android:name="notch_support"
+144-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:115:17-45
+145                android:value="true" />
+145-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:116:17-37
+146        </activity>
+147
+148        <meta-data
+148-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:119:9-121:36
+149            android:name="unityplayer.SkipPermissionsDialog"
+149-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:120:13-61
+150            android:value="true" />
+150-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:121:13-33
+151        <meta-data
+151-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:122:9-124:40
+152            android:name="com.google.ar.core"
+152-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:123:13-46
+153            android:value="required" /> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+153-->[:unityLibrary] /Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:124:13-37
+154        <meta-data
+154-->[:arcore_client:] /Users/diveroidteam/.gradle/caches/transforms-3/8613db0cad9624e75f3743c7cfc05935/transformed/jetified-arcore_client/AndroidManifest.xml:32:9-34:41
+155            android:name="com.google.ar.core.min_apk_version"
+155-->[:arcore_client:] /Users/diveroidteam/.gradle/caches/transforms-3/8613db0cad9624e75f3743c7cfc05935/transformed/jetified-arcore_client/AndroidManifest.xml:33:13-62
+156            android:value="240220000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+156-->[:arcore_client:] /Users/diveroidteam/.gradle/caches/transforms-3/8613db0cad9624e75f3743c7cfc05935/transformed/jetified-arcore_client/AndroidManifest.xml:34:13-38
+157        <activity
+157-->[:arcore_client:] /Users/diveroidteam/.gradle/caches/transforms-3/8613db0cad9624e75f3743c7cfc05935/transformed/jetified-arcore_client/AndroidManifest.xml:36:9-42:80
+158            android:name="com.google.ar.core.InstallActivity"
+158-->[:arcore_client:] /Users/diveroidteam/.gradle/caches/transforms-3/8613db0cad9624e75f3743c7cfc05935/transformed/jetified-arcore_client/AndroidManifest.xml:37:13-62
+159            android:configChanges="keyboardHidden|orientation|screenSize"
+159-->[:arcore_client:] /Users/diveroidteam/.gradle/caches/transforms-3/8613db0cad9624e75f3743c7cfc05935/transformed/jetified-arcore_client/AndroidManifest.xml:38:13-74
+160            android:excludeFromRecents="true"
+160-->[:arcore_client:] /Users/diveroidteam/.gradle/caches/transforms-3/8613db0cad9624e75f3743c7cfc05935/transformed/jetified-arcore_client/AndroidManifest.xml:39:13-46
+161            android:exported="false"
+161-->[:arcore_client:] /Users/diveroidteam/.gradle/caches/transforms-3/8613db0cad9624e75f3743c7cfc05935/transformed/jetified-arcore_client/AndroidManifest.xml:40:13-37
+162            android:launchMode="singleTop"
+162-->[:arcore_client:] /Users/diveroidteam/.gradle/caches/transforms-3/8613db0cad9624e75f3743c7cfc05935/transformed/jetified-arcore_client/AndroidManifest.xml:41:13-43
+163            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+163-->[:arcore_client:] /Users/diveroidteam/.gradle/caches/transforms-3/8613db0cad9624e75f3743c7cfc05935/transformed/jetified-arcore_client/AndroidManifest.xml:42:13-77
+164
+165        <provider
+165-->[androidx.emoji2:emoji2:1.2.0] /Users/diveroidteam/.gradle/caches/transforms-3/e60bf0ab8a1217670124be7e52d524ab/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+166            android:name="androidx.startup.InitializationProvider"
+166-->[androidx.emoji2:emoji2:1.2.0] /Users/diveroidteam/.gradle/caches/transforms-3/e60bf0ab8a1217670124be7e52d524ab/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+167            android:authorities="com.DefaultCompany.ARSuperMarket.androidx-startup"
+167-->[androidx.emoji2:emoji2:1.2.0] /Users/diveroidteam/.gradle/caches/transforms-3/e60bf0ab8a1217670124be7e52d524ab/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+168            android:exported="false" >
+168-->[androidx.emoji2:emoji2:1.2.0] /Users/diveroidteam/.gradle/caches/transforms-3/e60bf0ab8a1217670124be7e52d524ab/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+169            <meta-data
+169-->[androidx.emoji2:emoji2:1.2.0] /Users/diveroidteam/.gradle/caches/transforms-3/e60bf0ab8a1217670124be7e52d524ab/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+170                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+170-->[androidx.emoji2:emoji2:1.2.0] /Users/diveroidteam/.gradle/caches/transforms-3/e60bf0ab8a1217670124be7e52d524ab/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+171                android:value="androidx.startup" />
+171-->[androidx.emoji2:emoji2:1.2.0] /Users/diveroidteam/.gradle/caches/transforms-3/e60bf0ab8a1217670124be7e52d524ab/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+172            <meta-data
+172-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/diveroidteam/.gradle/caches/transforms-3/ca632e50827689b4d45330738d8735e2/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+173                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+173-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/diveroidteam/.gradle/caches/transforms-3/ca632e50827689b4d45330738d8735e2/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+174                android:value="androidx.startup" />
+174-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/diveroidteam/.gradle/caches/transforms-3/ca632e50827689b4d45330738d8735e2/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+175        </provider>
+176    </application>
+177
+178</manifest>

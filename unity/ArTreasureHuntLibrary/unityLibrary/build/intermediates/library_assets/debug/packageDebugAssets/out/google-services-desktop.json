@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "573450908771",
+    "project_id": "arsupermarket-d4c71",
+    "storage_bucket": "arsupermarket-d4c71.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573450908771:android:13f98140bf1dfcfa423456",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.ARSuperMarket"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWeOgYARW5DUayUL39ULmVC6PFWWHSsaE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

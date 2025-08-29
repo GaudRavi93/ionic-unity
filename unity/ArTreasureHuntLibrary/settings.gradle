@@ -1,0 +1,32 @@
+pluginManagement {
+    repositories {
+        
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+
+include ':launcher', ':unityLibrary'
+// include 'unityLibrary:FirebaseApp.androidlib'
+include 'unityLibrary:xrmanifest.androidlib'
+
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        
+        google()
+        mavenCentral()
+// Android Resolver Repos Start
+        // Commented out Firebase local repository - path needs to be updated for current system
+        // maven {
+        //     url "file:///C:/Users/Hamza.Hakim/Desktop/Projects/ARTreasureHunt/Assets/GeneratedLocalRepo/Firebase/m2repository" // Assets/Firebase/Editor/AppDependencies.xml:22, Assets/Firebase/Editor/FirestoreDependencies.xml:20
+        // }
+        mavenLocal()
+// Android Resolver Repos End
+        flatDir {
+            dirs "${project(':unityLibrary').projectDir}/libs"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+# ninja log v5
+5	797	1756448387195772630	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	64e7742e2f68e0c6
+797	1170	1756448387571933660	/Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/android/unityLibrary/build/intermediates/cxx/Debug/j1g2e6r2/obj/arm64-v8a/libswappywrapper.so	40f398188cd3a91e
+2	1559	1756448387964132918	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	d5fb9f83df975f78
+3	1924	1756448388320420997	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	c33295812692ea7a
+0	1927	1756448388330399119	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	1879e30f6ad418b1
+2	1980	1756448388383185905	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	f48d702279a1ec80
+4	2052	1756448388456930314	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	d82cbac31ea568e1
+4	2055	1756448388429022207	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	41cb4ea82e0add63
+1	2137	1756448388541691390	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	bd013eb9769ce77b
+0	2394	1756448388799165589	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	62dc252c085a20a9
+2394	2461	1756448388863021542	/Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/android/unityLibrary/build/intermediates/cxx/Debug/j1g2e6r2/obj/arm64-v8a/libgame.so	40931b0aee736a09
+1	48	0	clean	b862a9af37043cc1
+8	1256	1756449798711118127	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	64e7742e2f68e0c6
+1256	2303	1756449799757152947	/Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/android/unityLibrary/build/intermediates/cxx/Debug/j1g2e6r2/obj/arm64-v8a/libswappywrapper.so	40f398188cd3a91e
+1	2827	1756449800296543942	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	1879e30f6ad418b1
+4	2942	1756449800412436565	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	41cb4ea82e0add63
+2	3160	1756449800626232780	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	d5fb9f83df975f78
+4	3203	1756449800672646088	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	c33295812692ea7a
+2	3346	1756449800814990106	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	bd013eb9769ce77b
+8	3347	1756449800816495070	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	d82cbac31ea568e1
+3	3652	1756449801108857594	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	f48d702279a1ec80
+1	3749	1756449801167946118	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	62dc252c085a20a9
+3749	4029	1756449801481518851	/Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/android/unityLibrary/build/intermediates/cxx/Debug/j1g2e6r2/obj/arm64-v8a/libgame.so	40931b0aee736a09

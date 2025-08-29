@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 8.3.0">
+
+    <issue
+        id="ManifestOrder"
+        severity="Warning"
+        message="`&lt;supports-screens>` tag appears after `&lt;application>` tag"
+        category="Correctness"
+        priority="5"
+        summary="Incorrect order of elements in manifest"
+        explanation="The `&lt;application>` tag should appear after the elements which declare which version you need, which features you need, which libraries you need, and so on. In the past there have been subtle bugs (such as themes not getting applied correctly) when the `&lt;application>` tag appears before some of these other elements, so it&apos;s best to order your manifest in the logical dependency order."
+        errorLine1="  &lt;supports-screens android:smallScreens=&quot;true&quot; android:normalScreens=&quot;true&quot; android:largeScreens=&quot;true&quot; android:xlargeScreens=&quot;true&quot; android:anyDensity=&quot;true&quot; />"
+        errorLine2="   ~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/launcher/src/main/AndroidManifest.xml"
+            line="4"
+            column="4"/>
+    </issue>
+
+    <issue
+        id="ChromeOsAbiSupport"
+        severity="Warning"
+        message="Missing x86_64 ABI support for ChromeOS"
+        category="Correctness:Chrome OS"
+        priority="4"
+        summary="Missing ABI Support for ChromeOS"
+        explanation="To properly support ChromeOS, your Android application should have an x86 and/or x86_64 binary as part of the build configuration. To fix the issue, ensure your files are properly optimized for ARM; the binary translator will then ensure compatibility with x86. Alternatively, add an `abiSplit` for x86 within your `build.gradle` file and create the required x86 dependencies."
+        url="https://developer.android.com/ndk/guides/abis"
+        urls="https://developer.android.com/ndk/guides/abis"
+        errorLine1="            abiFilters &quot;arm64-v8a&quot;"
+        errorLine2="                       ~~~~~~~~~~~">
+        <location
+            file="/Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/launcher/build.gradle"
+            line="30"
+            column="24"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.mipmap.app_icon_round` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds.&#xA;&#xA;&#xA;The unused resource check can ignore tests. If you want to include resources that are only referenced from tests, consider packaging them in a test source set instead.&#xA;&#xA;You can include test sources in the unused resource check by setting the system property lint.unused-resources.include-tests =true, and to exclude them (usually for performance reasons), use lint.unused-resources.exclude-tests =true.&#xA;,"
+        errorLine1="&lt;adaptive-icon xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;>"
+        errorLine2="^">
+        <location
+            file="/Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/launcher/src/main/res/mipmap-anydpi-v26/app_icon_round.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="IconLauncherShape"
+        severity="Warning"
+        message="Launcher icons should not fill every pixel of their square region; see the design guide for details"
+        category="Usability:Icons"
+        priority="6"
+        summary="The launcher icon shape should use a distinct silhouette"
+        explanation="According to the Android Design Guide (https://d.android.com/r/studio-ui/designer/material/iconography) your launcher icons should &quot;use a distinct silhouette&quot;, a &quot;three-dimensional, front view, with a slight perspective as if viewed from above, so that users perceive some depth.&quot;&#xA;&#xA;The unique silhouette implies that your launcher icon should not be a filled square.">
+        <location
+            file="/Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/launcher/src/main/res/mipmap-mdpi/app_icon.png"/>
+    </issue>
+
+    <issue
+        id="MonochromeLauncherIcon"
+        severity="Warning"
+        message="The application adaptive icon is missing a monochrome tag"
+        category="Usability:Icons"
+        priority="6"
+        summary="Monochrome icon is not defined"
+        explanation="If `android:roundIcon` and `android:icon` are both in your manifest, you must either remove the reference to `android:roundIcon` if it is not needed; or, supply the monochrome icon in the drawable defined by the `android:roundIcon` and `android:icon` attribute.&#xA;&#xA;For example, if `android:roundIcon` and `android:icon` are both in the manifest, a launcher might choose to use `android:roundIcon` over `android:icon` to display the adaptive app icon. Therefore, your themed application iconwill not show if your monochrome attribute is not also specified in `android:roundIcon`."
+        errorLine1="&lt;adaptive-icon xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;>"
+        errorLine2="^">
+        <location
+            file="/Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/launcher/src/main/res/mipmap-anydpi-v26/app_icon.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+</issues>

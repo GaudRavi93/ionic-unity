@@ -1,0 +1,12 @@
+# ninja log v5
+3	582	1756459089804519214	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	c9c3ac9d386469e7
+1	848	1756459090075073816	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	a63c4a12451893ec
+0	863	1756459090090713965	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	a3311cf83abfe1d6
+0	864	1756459090089932670	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	56c0094a02e2c547
+1	864	1756459090090273171	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	75aaa97681e85c7b
+2	876	1756459090102637974	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	50904d691ea4ba7e
+0	885	1756459090112818558	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	45029954a9626116
+1	918	1756459090146093616	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	4579d360260b4ba4
+0	938	1756459090165827574	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	e14f3d0404a26d35
+583	987	1756459090212429854	/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/cxx/Debug/3i3z1d70/obj/arm64-v8a/libswappywrapper.so	35866c6fb29a68c3
+939	1015	1756459090228057212	/Users/diveroidteam/Desktop/Ravi/learning/ionic-unity/unity/ArTreasureHuntLibrary/unityLibrary/build/intermediates/cxx/Debug/3i3z1d70/obj/arm64-v8a/libgame.so	3ec4546cc9334b0

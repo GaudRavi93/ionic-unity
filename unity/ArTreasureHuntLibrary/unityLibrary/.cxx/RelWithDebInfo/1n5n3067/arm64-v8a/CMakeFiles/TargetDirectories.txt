@@ -1,0 +1,8 @@
+/Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/.cxx/RelWithDebInfo/1n5n3067/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/.cxx/RelWithDebInfo/1n5n3067/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/.cxx/RelWithDebInfo/1n5n3067/arm64-v8a/GameActivity/CMakeFiles/game.dir
+/Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/.cxx/RelWithDebInfo/1n5n3067/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+/Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/.cxx/RelWithDebInfo/1n5n3067/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
+/Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/.cxx/RelWithDebInfo/1n5n3067/arm64-v8a/FramePacing/CMakeFiles/swappywrapper.dir
+/Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/.cxx/RelWithDebInfo/1n5n3067/arm64-v8a/FramePacing/CMakeFiles/edit_cache.dir
+/Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/.cxx/RelWithDebInfo/1n5n3067/arm64-v8a/FramePacing/CMakeFiles/rebuild_cache.dir

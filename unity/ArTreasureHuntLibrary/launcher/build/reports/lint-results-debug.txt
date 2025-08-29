@@ -1,0 +1,73 @@
+/Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/launcher/src/main/AndroidManifest.xml:4: Warning: <supports-screens> tag appears after <application> tag [ManifestOrder]
+  <supports-screens android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" android:xlargeScreens="true" android:anyDensity="true" />
+   ~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "ManifestOrder":
+   The <application> tag should appear after the elements which declare which
+   version you need, which features you need, which libraries you need, and so
+   on. In the past there have been subtle bugs (such as themes not getting
+   applied correctly) when the <application> tag appears before some of these
+   other elements, so it's best to order your manifest in the logical
+   dependency order.
+
+/Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/launcher/build.gradle:30: Warning: Missing x86_64 ABI support for ChromeOS [ChromeOsAbiSupport]
+            abiFilters "arm64-v8a"
+                       ~~~~~~~~~~~
+
+   Explanation for issues of type "ChromeOsAbiSupport":
+   To properly support ChromeOS, your Android application should have an x86
+   and/or x86_64 binary as part of the build configuration. To fix the issue,
+   ensure your files are properly optimized for ARM; the binary translator
+   will then ensure compatibility with x86. Alternatively, add an abiSplit for
+   x86 within your build.gradle file and create the required x86
+   dependencies.
+
+   https://developer.android.com/ndk/guides/abis
+
+/Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/launcher/src/main/res/mipmap-anydpi-v26/app_icon_round.xml:2: Warning: The resource R.mipmap.app_icon_round appears to be unused [UnusedResources]
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+^
+
+   Explanation for issues of type "UnusedResources":
+   Unused resources make applications larger and slow down builds.
+
+
+   The unused resource check can ignore tests. If you want to include
+   resources that are only referenced from tests, consider packaging them in a
+   test source set instead.
+
+   You can include test sources in the unused resource check by setting the
+   system property lint.unused-resources.include-tests =true, and to exclude
+   them (usually for performance reasons), use
+   lint.unused-resources.exclude-tests =true.
+   ,
+
+/Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/launcher/src/main/res/mipmap-mdpi/app_icon.png: Warning: Launcher icons should not fill every pixel of their square region; see the design guide for details [IconLauncherShape]
+
+   Explanation for issues of type "IconLauncherShape":
+   According to the Android Design Guide
+   (https://d.android.com/r/studio-ui/designer/material/iconography) your
+   launcher icons should "use a distinct silhouette", a "three-dimensional,
+   front view, with a slight perspective as if viewed from above, so that
+   users perceive some depth."
+
+   The unique silhouette implies that your launcher icon should not be a
+   filled square.
+
+/Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/launcher/src/main/res/mipmap-anydpi-v26/app_icon.xml:2: Warning: The application adaptive icon is missing a monochrome tag [MonochromeLauncherIcon]
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+^
+
+   Explanation for issues of type "MonochromeLauncherIcon":
+   If android:roundIcon and android:icon are both in your manifest, you must
+   either remove the reference to android:roundIcon if it is not needed; or,
+   supply the monochrome icon in the drawable defined by the android:roundIcon
+   and android:icon attribute.
+
+   For example, if android:roundIcon and android:icon are both in the
+   manifest, a launcher might choose to use android:roundIcon over
+   android:icon to display the adaptive app icon. Therefore, your themed
+   application iconwill not show if your monochrome attribute is not also
+   specified in android:roundIcon.
+
+0 errors, 5 warnings

@@ -1,0 +1,19 @@
+<libraries>
+  <library
+      name=":@@:launcher::debug"
+      project=":launcher"/>
+  <library
+      name=":@@:unityLibrary::debug"
+      jars="/Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/.transforms/31eafbbba784f4518638f1a5f20cd9f3/transformed/out/jars/classes.jar:/Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/.transforms/31eafbbba784f4518638f1a5f20cd9f3/transformed/out/jars/libs/R.jar:/Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/.transforms/31eafbbba784f4518638f1a5f20cd9f3/transformed/out/jars/libs/unity-classes.jar"
+      resolved="ArTreasureHuntLibrary:unityLibrary:unspecified"
+      provided="true"
+      folder="/Users/diveroidteam/Desktop/Ravi/ionic-angular/unity-ionic/unity/ArTreasureHuntLibrary/unityLibrary/build/.transforms/31eafbbba784f4518638f1a5f20cd9f3/transformed/out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+</libraries>

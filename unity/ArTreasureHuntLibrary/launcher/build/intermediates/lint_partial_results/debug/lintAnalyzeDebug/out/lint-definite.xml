@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.3.0" type="incidents">
+
+    <incident
+        id="ManifestOrder"
+        severity="warning"
+        message="`&lt;supports-screens>` tag appears after `&lt;application>` tag">
+        <location
+            file="${:launcher*debug*MAIN*sourceProvider*0*manifest*0}"
+            line="4"
+            column="4"
+            startOffset="286"
+            endLine="4"
+            endColumn="20"
+            endOffset="302"/>
+    </incident>
+
+    <incident
+        id="MonochromeLauncherIcon"
+        severity="warning"
+        message="The application adaptive icon is missing a monochrome tag">
+        <location
+            file="${:launcher*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-anydpi-v26/app_icon.xml"
+            line="2"
+            column="1"
+            startOffset="39"
+            endLine="5"
+            endColumn="17"
+            endOffset="266"/>
+    </incident>
+
+    <incident
+        id="ChromeOsAbiSupport"
+        severity="warning"
+        message="Missing x86_64 ABI support for ChromeOS">
+        <location
+            file="${:launcher*projectDir}/build.gradle"
+            line="30"
+            column="24"
+            startOffset="837"
+            endLine="30"
+            endColumn="35"
+            endOffset="848"/>
+    </incident>
+
+    <incident
+        id="IconLauncherShape"
+        severity="warning"
+        message="Launcher icons should not fill every pixel of their square region; see the design guide for details">
+        <location
+            file="${:launcher*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-mdpi/app_icon.png"/>
+    </incident>
+
+</incidents>

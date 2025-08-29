@@ -1,0 +1,20 @@
+/Library/Java/JavaVirtualMachines/jdk-20.0.2.jdk/Contents/Home/bin/java \
+  --class-path \
+  /Users/diveroidteam/.gradle/caches/modules-2/files-2.1/com.google.prefab/cli/2.1.0/aa32fec809c44fa531f01dcfb739b5b3304d3050/cli-2.1.0-all.jar \
+  com.google.prefab.cli.AppKt \
+  --build-system \
+  cmake \
+  --platform \
+  android \
+  --abi \
+  arm64-v8a \
+  --os-version \
+  24 \
+  --stl \
+  c++_shared \
+  --ndk-version \
+  23 \
+  --output \
+  /var/folders/pl/txtf21p92_1f2c39l5k30q100000gn/T/agp-prefab-staging6758099341660980058/staged-cli-output \
+  /Users/diveroidteam/.gradle/caches/8.11.1/transforms/9a257e858b9178bd707c6ced557230ed/transformed/games-activity-3.0.5/prefab \
+  /Users/diveroidteam/.gradle/caches/8.11.1/transforms/2b49fb56203d57715cc6dd344ab732a1/transformed/games-frame-pacing-1.10.0/prefab
