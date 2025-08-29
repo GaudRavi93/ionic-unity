@@ -3,3 +3,9 @@ include ':capacitor-cordova-android-plugins'
 project(':capacitor-cordova-android-plugins').projectDir = new File('./capacitor-cordova-android-plugins/')
 
 apply from: 'capacitor.settings.gradle'
+
+// include unity exported library module
+include ':unityLibrary'
+project(':unityLibrary').projectDir = new File('../unity/ArTreasureHuntLibrary/unityLibrary')
+include ':unityLibrary:xrmanifest.androidlib'
+project(':unityLibrary:xrmanifest.androidlib').projectDir = new File('../unity/ArTreasureHuntLibrary/unityLibrary/xrmanifest.androidlib')

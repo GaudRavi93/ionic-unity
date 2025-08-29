@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
 
     <application
         android:allowBackup="true"
@@ -22,6 +22,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
+        </activity>
+
+        <!-- remove launcher intent filters from unity activities provided by unityLibrary -->
+        <activity android:name="com.unity3d.player.UnityPlayerActivity" tools:node="merge">
+            <intent-filter tools:node="removeAll" />
+        </activity>
+        <activity android:name="com.unity3d.player.UnityPlayerGameActivity" tools:node="merge">
+            <intent-filter tools:node="removeAll" />
         </activity>
 
         <provider
